@@ -3,7 +3,7 @@ from django.utils.timezone import datetime
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Hello, TIM!")
+    return HttpResponse("Hello, Tim!")
 
 """def hello_there(request, name):
     now = datetime.now()
